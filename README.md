@@ -75,13 +75,13 @@ Copy code
         <section>
             <h2>My Interests</h2>
             <ul>
-                <em>Web Development</em>
-                <em>I am more interested in web development than any other stuffs</em>
-                <strong>Photography</strong>
-                <strong>I like to click sunset photos</strong>
-                <strong>Photography supports me to stay calm and cool my mind</strong>
+                <li>Web Development</li>
+                <li>I am more interested in web development than any other stuffs</li>
+                <li>Photography</li>
+                <li>I like to click sunset photos</li>
+                </li>Photography supports me to stay calm and cool my mind</li>
                 <li>Traveling</li>
-                <strong>curiosity of peoples lifestyle, cultures and religions from the evry coorner the earth</strong>
+                <li>curiosity of peoples lifestyle, cultures and religions from the evry coorner the earth</li>
             </ul>
         </section>
     </main>
