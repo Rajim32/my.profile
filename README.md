@@ -21,6 +21,8 @@
         <section>
             <h2>About Me</h2>
             <p>Welcome to my portfolio website! I am passionate about web development and love creating innovative solutions.</p>
+            <p>For me, web development is more than just a career—it's a canvas for innovation and expression.</P>
+            <p>I thrive on the thrill of turning ideas into interactive experiences, utilizing the latest technologies to build websites that captivate and inspire.</p>
         </section>
 
         <section>
@@ -74,8 +76,12 @@ Copy code
             <h2>My Interests</h2>
             <ul>
                 <li>Web Development</li>
+                <em>I am more interested in web development than any other stuffs</em>
                 <li>Photography</li>
+                <strong>I like to click sunset photos</strong>
+                <strong>Photography supports me to stay calm and cool my mind</strong>
                 <li>Traveling</li>
+                <strong>curiosity of peoples lifestyle, cultures and religions from the evry coorner the earth</strong>
             </ul>
         </section>
     </main>
