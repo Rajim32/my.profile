@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
@@ -11,7 +12,7 @@
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
+                <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
@@ -20,13 +21,11 @@
     <main>
         <section>
             <h2>About Me</h2>
-            <p>Welcome to my portfolio website! I am passionate about web development and love creating innovative solutions.</p>
-            <p>For me, web development is more than just a career—it's a canvas for innovation and expression.</P>
-            <p>I thrive on the thrill of turning ideas into interactive experiences, utilizing the latest technologies to build websites that captivate and inspire.</p>
+            <p>Hello, I'm John Doe, a web developer passionate about creating beautiful and functional websites.</p>
         </section>
 
         <section>
-            <h2>Latest Projects</h2>
+            <h2>Projects</h2>
             <figure>
                 <img src="project1.jpg" alt="Project 1">
                 <figcaption>Project 1: Description</figcaption>
@@ -43,7 +42,7 @@
     </footer>
 </body>
 </html>
-About Me Page (about.html)
+About.html
 html
 Copy code
 <!DOCTYPE html>
@@ -52,6 +51,7 @@ Copy code
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
@@ -59,7 +59,7 @@ Copy code
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
+                <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
@@ -67,21 +67,18 @@ Copy code
 
     <main>
         <section>
-            <h2>My Background</h2>
-            <p>I am a web developer with a passion for creating engaging and user-friendly websites.</p>
-            <p><em>Skills:</em> HTML, CSS, JavaScript, React</p>
+            <h2>My Bio</h2>
+            <p>I am a web developer with 5 years of experience in frontend and backend development.</p>
+            <p><em>I love creating innovative solutions</em> to complex problems and <strong>bringing ideas to life through code</strong>.</p>
         </section>
 
         <section>
-            <h2>My Interests</h2>
+            <h2>Skills</h2>
             <ul>
-                <li>Web Development</li>
-                <li>I am more interested in web development than any other stuffs</li>
-                <li>Photography</li>
-                <li>I like to click sunset photos</li>
-                </li>Photography supports me to stay calm and cool my mind</li>
-                <li>Traveling</li>
-                <li>curiosity of peoples lifestyle, cultures and religions from the evry coorner the earth</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Python</li>
             </ul>
         </section>
     </main>
@@ -91,7 +88,7 @@ Copy code
     </footer>
 </body>
 </html>
-Contact Page (contact.html)
+Contact.html
 html
 Copy code
 <!DOCTYPE html>
@@ -100,6 +97,7 @@ Copy code
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
@@ -107,7 +105,7 @@ Copy code
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
+                <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
@@ -115,15 +113,18 @@ Copy code
 
     <main>
         <section>
-            <h2>Send me a Message</h2>
-            <form action="submit.php" method="post">
-                <label for="name">Name:</label><br>
-                <input type="text" id="name" name="name"><br>
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email"><br>
-                <label for="message">Message:</label><br>
-                <textarea id="message" name="message"></textarea><br>
-                <input type="submit" value="Submit">
+            <h2>Get in Touch</h2>
+            <form action="submit.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea><br>
+
+                <input type="submit" value="Send Message">
             </form>
         </section>
     </main>
@@ -133,3 +134,44 @@ Copy code
     </footer>
 </body>
 </html>
+styles.css
+css
+Copy code
+/* Add your CSS styles here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+
+
