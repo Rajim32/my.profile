@@ -75,9 +75,9 @@ Copy code
         <section>
             <h2>My Interests</h2>
             <ul>
-                <li>Web Development</li>
+                <em>Web Development</em>
                 <em>I am more interested in web development than any other stuffs</em>
-                <li>Photography</li>
+                <strong>Photography</strong>
                 <strong>I like to click sunset photos</strong>
                 <strong>Photography supports me to stay calm and cool my mind</strong>
                 <li>Traveling</li>
