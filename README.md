@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Website</title>
+    <title>My hobby</title>
 </head>
 <body>
     <header>
-        <h1>Welcome to My Website</h1>
+        <h1></h1>
         <nav>
             <ul>
                 <li><a href="/">Home</a></li>
@@ -21,18 +21,23 @@
     <main>
         <section>
             <h2>About Me</h2>
-            <p><em>Welcome to my website!</em> I am passionate about [insert your interests or purpose here]. This website serves as a platform to showcase my work and share my experiences.</p>
+            <p><em>Welcome to my website,</em> this website is all about my hobbies on movies. This website serves as a platform to showcase my work and share my experiences.</p>
+            <p>In hollywood movie industry i like the direction of christopher nolan. </p>
+            <p><em>Recently his movie openheimer got <strong>7 oscars.</strong></em></p>
         </section>
 
         <section>
-            <h2>My Portfolio</h2>
+            <h2>My thoughts on movies:</h2>
+            <p>As I have already mentioned, I am fascinated by the works of Christopher Nolan. His movies not only entertain but also challenge the audience with their intricate narratives and thought-provoking themes.</p>
+            <p>Nolan's films often delve into complex concepts such as time, identity, and morality, making them a captivating experience for any movie enthusiast.</p>
+            <p>The impeccable craftsmanship, mesmerizing visuals, and haunting soundtracks in his movies, like <strong>tenet</strong> and <strong>The dark knight</strong> leave a lasting impression on the viewers.</p>
             <figure>
-                <img src="image1.jpg" alt="Description of Image 1">
-                <figcaption>Description of Image 1</figcaption>
+                <img src="https://tse3.mm.bing.net/th?id=OIP.B2U3K0cTsn1kxzuCq9wQxQHaHa&pid=Api&P=0&h=220" alt="Description of Image 1">
+                <figcaption>Movie:Tenet</figcaption>
             </figure>
             <figure>
-                <img src="image2.jpg" alt="Description of Image 2">
-                <figcaption>Description of Image 2</figcaption>
+                <img src="https://tse3.mm.bing.net/th?id=OIP.zU8P45LlyXn-F874TJtR-QHaFj&pid=Api&P=0&h=220" alt="Description of Image 2">
+                <figcaption>Movie:The dark Knight</figcaption>
             </figure>
             <!-- Add more images as needed -->
         </section>
