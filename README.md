@@ -7,7 +7,7 @@
 </head>
 <body>
     <header>
-        <h1></h1>
+        <h1>Movie blog</h1>
         <nav>
             <ul>
                 <li><a href="/">Home</a></li>
